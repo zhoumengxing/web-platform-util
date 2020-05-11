@@ -1,10 +1,17 @@
 <template>
-  <div>sssssss</div>
+  <div>
+    <PageLoading v-if="false"></PageLoading>
+  </div>
 </template>
 
 <script>
+import { PageLoading } from '@/components/PageLoading'
+
 export default {
-  name: 'Workplace'
+  name: 'Workplace',
+  components: {
+    PageLoading
+  }
 }
 </script>
 
