@@ -49,10 +49,7 @@ loading.newInstance = (Vue, options) => {
     document.body.appendChild(loadingElement)
   }
 
-  const cdProps = Object.assign(
-    { visible: false, size: 'large', tip: 'Loading...' },
-    options
-  )
+  const cdProps = Object.assign({ visible: false, size: 'large', tip: 'Loading...' }, options)
 
   const instance = new Vue({
     data() {
