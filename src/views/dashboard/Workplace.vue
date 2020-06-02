@@ -25,6 +25,15 @@
         There were injuries alleged in three cases in 2015, and a fourth incident in September, according to the safety
         recall report. After meeting with US regulators in October, the firm decided to issue a voluntary recall.
       </ellipsis>
+      <a-popconfirm
+        title="Are you sure delete this task?"
+        ok-text="Yes"
+        cancel-text="No"
+        @confirm="() => confirm('zhou')"
+        @cancel="cancel"
+      >
+        <a href="#">Delete</a>
+      </a-popconfirm>
     </div>
   </page-view>
 </template>
@@ -50,6 +59,16 @@ export default {
       timeFix: timeFix(),
       welcome: welcome(),
       avatar: require('@/assets/icons/yuer.png')
+    }
+  },
+  methods: {
+    confirm(e) {
+      console.log(e)
+      this.$message.success('Click on Yes')
+    },
+    cancel(e) {
+      console.log(e)
+      this.$message.error('Click on No')
     }
   }
 }

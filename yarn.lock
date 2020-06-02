@@ -1500,10 +1500,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-ant-design-vue@^1.5.6:
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/ant-design-vue/-/ant-design-vue-1.5.6.tgz#9aa64fd24b3c8845effb172dc8952aca51158d11"
-  integrity sha512-w+U2SnnOEhO+I/nIOEjFxI0IQ6tc0YKopvtkWVOKQ1y1Gjt/0H+DQxnhMZBcPKYUac3C0NUkPo60YTbkgQgnCA==
+ant-design-vue@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/ant-design-vue/-/ant-design-vue-1.6.2.tgz#983634caac9cdaca0b3a095b540105b4f76da29f"
+  integrity sha512-VEwWomHxY+0rt0RKRd4FqrW+udCr7cpFt0GwVOCJPwIdulkZkB3GjK64GslEl9XtBp/rKzcorfAx4t1ues6Izg==
   dependencies:
     "@ant-design/icons" "^2.1.1"
     "@ant-design/icons-vue" "^2.0.0"
@@ -8214,6 +8214,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-draggable-resizable@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vue-draggable-resizable/-/vue-draggable-resizable-2.2.0.tgz#eb4581b6ddd6a20c5f54f99993c8646382523296"
+  integrity sha512-KjVyzg0OtLsyVhnwD/6NozJkLMD3li41QB/aJIJUr3VS75Gn32UPOWidLvhwsbkwNQcKajXW9QCV1aTrN6MY8w==
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
